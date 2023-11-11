@@ -32,7 +32,7 @@ def track_phone():
             # print(time)
 
             # Using maps to point location
-            api_key = "dc1b429407694787af62e71f5a3eddbf"
+            api_key = "Enter your own free api key from OpenCage.com"
             geo = OpenCageGeocode(api_key)
             query = str(number_location)
             result = geo.geocode(query)
